@@ -1,0 +1,98 @@
+.products {
+    text-align: center;
+    padding: 50px;
+}
+
+.products h2 {
+    font-size: 32px;
+    background: linear-gradient(to right, #e691bb, #ae5fe2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #4a3866;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 231, 231, 0.897);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    color: #ff99cc;
+}
+
+footer {
+    background: rgb(31, 0, 23); /* Black Background */
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 10;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.footer-section img {
+    width: 30px;
+    margin: 5px;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    border-top: 1px solid rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 14px;
+}

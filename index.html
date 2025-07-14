@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Charm - Home</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #060020; /* Deep Dark Blue */
+            color: #ffffff;
+        }
+
+        /* Header Styling */
+        .header {
+            background-color: #0a0229; /* Deep Dark Blue */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+            background: linear-gradient(to right, #860043, #300061); /* Pink to Purple */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav {
+            margin-top: 10px;
+        }
+
+        .nav a {
+            color: #13000b; /* Soft Pink */
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 0 15px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav a:hover {
+            color: #ffffff; /* Soft Purple */
+        }
+
+        /* Main Content */
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .content {
+            flex: 1;
+            max-width: 600px;
+            text-align: left;
+            padding-right: 30px;
+        }
+
+        .content h2 {
+            font-size: 35px;
+            background: linear-gradient(to right, #f5b1d2, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #cca2f3;
+            line-height: 1.6;
+        }
+
+        .content .quote {
+            font-style: italic;
+            font-size: 20px;
+            color: #ff99cc;
+            margin-top: 15px;
+        }
+
+        .image-container {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 80%;
+            max-width: 400px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(235, 224, 224, 0.877);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="logo">Blossom Charm</h1>
+        <nav class="nav">
+            <a href="#main">Home</a>
+            <a href="#shop 1">Shop</a>
+            <a href="#reviews">About</a>
+            <a href="#about">Contact</a>
+            <a href="#">Sreach</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="content">
+            <h2>Blossom Charm – Where Nature’s Beauty Blooms</h2>
+            <p>Step into a world of elegance with Blossom Charm, where every petal tells a story. <br> We bring you the freshest, most enchanting flowers, perfect for every occasion.</p>
+            <p class="quote">"Happiness is a bouquet of blooms, spreading love and joy in every color!"</p>
+        </div>
+        <div class="image-container">
+            <img src="person.jpg" alt="Flowers and Treats">
+        </div>
+    </section>
+    <section class="main">
+        <div class="content">
+            <h2>Why We Started Blossom Charm</h2>
+            <p>We wanted to create a space where people could experience the magic of fresh blooms and the joy of heartfelt gifting.</p>
+            <p>Inspired by the elegance of flowers and the warmth of celebrations, we carefully curate hand-picked bouquets to make every moment unforgettable.</p>
+            <p class="quote">"Every flower blooms in its own time, carrying whispers of love and joy!"</p>
+        </div>
+        <div class="image-container">
+            <img src="two hands.jpg" alt="Our Story">
+        </div>
+    </section>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10;
+            padding: 10;
+            background-color: #02000f;
+        }
+        .header {
+            background: #ff69b4;
+            color: rgb(253, 185, 185);
+            text-align: center;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 10;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: rgb(255, 194, 194);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .product-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: rgb(0, 13, 27);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(70, 69, 69, 0.1);
+        }
+        .product img {
+            width: 100px;
+            height: auto;
+        }
+        .product button {
+            background: #c5cde6;
+            color: rgb(1, 0, 44);
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background: #c50069;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #08021f;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <section id="shop 1">
+        <h2 class="elegant-title">🌸 Blossoms of Elegance 🌸</h2>
+        <style>
+                .elegant-title {
+                     text-align: center; /* Center the text */
+                     font-size: 32px;
+                     font-style: italic;
+                     background-color: #ffffff; /* Light Pink */
+                     color: #1e003a; /* Violet */
+                     padding: 15px 30px;
+                     border-radius: 12px;
+                     text-shadow: 0 0 10px #dda0dd, 0 0 20px #ba55d3; /* Soft violet glow */
+                     display: inline-block;
+                     width: auto;
+                     margin: 20px auto;
+                     }
+
+                /* Centering the entire section */
+                body {
+                    text-align: center;
+                    }
+        </style>
+        
+        
+      <div class="product-container">
+            <div class="product">
+                <img src="roses.webp" alt="Flower 1">
+                <h3>Rose Bouquet</h3>
+                <p>RP-1500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="lily.jpg" alt="Flower 2">
+                <h3>Lily Bouquet</h3>
+                <p>RP-1800</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="tulips.webp" alt="Flower 3">
+                <h3>Tulip Bouquet</h3>
+                <p>RP-1200</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="orchidd.jpg" alt="Flower 1">
+                <h3>Orchid Bouquet</h3>
+                <p>RP-1500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="iris.jpg" alt="Flower 3">
+                <h3>Iris Bouquet</h3>
+                <p>RP-1200</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="sunflower.jpeg" alt="Flower 3">
+                <h3>Sunflower Bouquet</h3>
+                <p>RP-1800</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="mix.jpg" alt="Flower 2">
+                <h3>Exotic Mix Flowers Bouquet</h3>
+                <p>RP-3000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="legendary mixed.webp" alt="Flower 2">
+                <h3>Legendary Mix Flowers Bouquet</h3>
+                <p>RP-3100</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop 2">
+        <h2 class="elegant-title">🌷 Baskets of Blooming Bliss 🌷</h2>
+
+        <style>
+            .elegant-title {
+                 text-align: center; /* Center the text */
+                 font-size: 32px;
+                 font-style: italic;
+                 background-color: #ffe3e7; /* Light Pink */
+                 color: #1e003a; /* Violet */
+                 padding: 15px 30px;
+                 border-radius: 12px;
+                 text-shadow: 0 0 10px #dda0dd, 0 0 20px #ba55d3; /* Soft violet glow */
+                 display: inline-block;
+                 width: auto;
+                 margin: 20px auto;
+                }
+
+            /* Centering the entire section */
+            body {
+                 text-align: center;
+            }
+        </style>
+        
+        <div class="product-container"> 
+            <div class="product">
+                <img src="spell rose.avif" alt="Flower 2">
+                <h3>Spellbinding Pink Splendor</h3>
+                <p>RP-4,899</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="mcc.jpg" alt="Flower 3">
+                <h3>Bliss Colourful Flower</h3>
+                <p>RP-5,998</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="yellow.webp" alt="Flower 3">
+                <h3>The perfect yellow basket roses</h3>
+                <p>RP-7,255</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="sola.webp" alt="Flower 2">
+                <h3>Solawood Flower Basket</h3>
+                <p>RP-6,257</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="sunny.jpeg" alt="Flower 3">
+                <h3>Sunny Flower Basket</h3>
+                <p>RP-5,662</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="tuberose.jpeg" alt="Flower 3">
+                <h3>heavenly Mist Basket</h3>
+                <p>RP-7,569</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+        
+        <section id="reviews">
+            <h2 class="elegant-title">What Our Customers Say's ?</h2>
+            <style>
+                #shop h2 
+                {
+                      text-align: center;
+                     font-size: 32px;
+                     font-style: italic;
+                     background-color: #001014; /* Cherry deep red */
+                     color: #f7e9eb; /* Light pink */
+                     padding: 10px;
+                     border-radius: 12px;
+                     text-shadow: 0 0 10px #ffe3e7, 0 0 20px #FFB6C1; /* Glowing effect */
+                     display: inline-block;
+                     width: auto;
+                     margin: 20px auto;
+                   
+                     #shop h2 
+                        {
+                         color: #d63384; /* Elegant deep pink */
+                         margin-bottom: 20px;
+                        }
+        
+                }
+            
+                #shop {
+                    text-align: center; /* Center the entire section */
+                }
+            </style>
+            <div class="reviews-container">
+                <div class="review">
+                    <img src="sarah.jpg" alt="Customer 1">
+                    <h3>Sarah Williams</h3>
+                    <p>"Absolutely stunning flowers! The arrangement was fresh and lasted so long. Blossom Charm never disappoints!"</p>
+                </div>
+                <div class="review">
+                    <img src="micheal.jpg" alt="Customer 2">
+                    <h3>Kim Soo Hyun</h3>
+                    <p>"The bouquet I ordered was breathtaking! The colors were vibrant, and the fragrance was heavenly. Highly recommend!"</p>
+                </div>
+                <div class="review">
+                    <img src="emily.jpg" alt="Customer 3">
+                    <h3>Emily Roberts</h3>
+                    <p>"Such a delightful experience! The flowers were fresh, beautifully wrapped, and delivered on time. Will order again!"</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2 class="elegant-title">🌿 Meet the Creators 🌿</h2>
+            <style>
+                #shop h2 {
+                    text-align: center;
+                    font-size: 32px;
+                    font-style: italic;
+                    background-color: hsl(328, 50%, 89%); /* Hot pink */
+                    color: #f7e9eb; /* Light pink */
+                    padding: 10px;
+                    border-radius: 8px;
+                    text-shadow: 0 0 10px #d6e8ee, 0 0 20px #dce8f1; /* Glowing effect */
+                    display: inline-block;
+                    width: auto;
+                    margin: 20px auto;
+                }
+            
+                #shop {
+                    text-align: center; /* Center the entire section */
+                }
+            </style>
+            <div class="creators-container">
+                <div class="creator">
+                    <h3>Kiran Bhowmick</h3>
+                    <p>A passionate florist with an eye for beauty, Kiran believes that every flower tells a story. From delicate roses to vibrant sunflowers, she carefully curates each bouquet to bring joy and elegance to every occasion.</p>
+                </div>
+                <div class="creator">
+                    <h3>Samrudhi Shrishail Prachande</h3>
+                    <p>With a deep love for nature and creativity, Samrudhi blends artistry with floristry. She ensures that every floral arrangement is a masterpiece, capturing the essence of love, warmth, and celebration.</p>
+                </div>
+            </div>
+        </section>
+        
+        <style>
+            #about {
+                text-align: center;
+                padding: 50px;
+                background-color: #090013; /* Soft pinkish background */
+            }
+        
+            #about h2 {
+                font-size: 32px;
+                color: #d63384; /* Elegant deep pink */
+                margin-bottom: 20px;
+            }
+        
+            .creators-container {
+                display: flex;
+                justify-content: center;
+                gap: 50px;
+            }
+        
+            .creator {
+                width: 300px;
+                background: #c2e9f3; /* Light pastel pink */
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
+        
+            .creator img {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 10px;
+            }
+        
+            .creator h3 {
+                font-size: 24px;
+                color: #b5179e; /* Deep pink */
+            }
+        
+            .creator p {
+                font-size: 16px;
+                color: #555;
+            }
+        
+            @media (max-width: 768px) {
+                .creators-container {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        </style>        
+        
+        <style>
+            #reviews {
+                background: #0a0a23;
+                color: white;
+                text-align: center;
+                padding: 50px 20px;
+            }
+        
+            #reviews h2 {
+                font-size: 2rem;
+                color: #ff69b4;
+                text-shadow: 0 0 10px #ff69b4;
+                margin-bottom: 20px;
+            }
+        
+            .reviews-container {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+        
+            .review {
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+                padding: 20px;
+                width: 300px;
+                text-align: center;
+                box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+                transition: transform 0.3s ease;
+            }
+        
+            .review:hover {
+                transform: scale(1.05);
+            }
+        
+            .review img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+                border: 2px solid #ff69b4;
+            }
+        
+            .review h3 {
+                font-size: 1.2rem;
+                color: #ff69b4;
+                margin-bottom: 10px;
+            }
+        
+            .review p {
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #f8d7ff;
+            }
+        </style>
+        
+    <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:info@blossombites.com">info@blossombites.com</a></p>
+                    <p>Phone: +91 98765 43210</p>
+                    <p>Address: 123 Blossom Street, Pune, India</p>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Find Us At</h3>
+                    <a href="https://www.facebook.com/"><img src="face.avif" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="insta.jpg" alt="Instagram"></a>
+                    <a href="https://x.com/i/flow/login"><img src="x.png" alt="Twitter"></a>
+                </div>
+            </div>
+            <p class="footer-bottom">&copy; 2025 Blossom & Bites. All rights reserved.</p>
+        <p>&copy; 2025 Flower Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
